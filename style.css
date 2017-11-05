@@ -1,0 +1,28 @@
+html, body {
+    position: relative;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#canvas {
+    position: relative;
+    width: 80%;
+    height: 70%;
+    margin: 5% 10% 0;
+    /*background: #789456;*/
+}
+#from{
+    text-align: center;
+    font-size: 25pt;
+}
+#from input, #from select{
+    text-align: center;
+    font-size: 25pt;
+    width: 60pt;
+    border: none;
+    outline: none;
+}
+#from input {
+    border-bottom: 1px solid #000;
+}
+
